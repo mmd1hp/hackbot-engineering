@@ -1,0 +1,8 @@
+# Local assessment outputs and sensitive artifacts
+assessment-output/
+reports/
+*.har
+*.pcap
+.env
+.env.*
+secrets.*
