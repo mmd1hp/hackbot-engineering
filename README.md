@@ -1,6 +1,6 @@
 # Hackbot Engineering
 
-A Claude Code skill for designing, auditing, and reviewing reliable AI-assisted workflows for **authorized web security testing**.
+A Skill for designing, auditing, and reviewing reliable AI-assisted workflows for **authorized web security testing**.
 
 It turns lessons from agentic security testing into practical engineering habits: narrow task contracts, ordered checklists, explicit output artifacts, independent review, bounded retries, and human validation.
 
@@ -14,6 +14,7 @@ Hackbot Engineering helps you define what completion means before a workflow run
 
 ```text
 .
+├── LICENSE
 ├── SKILL.md
 └── checklists/
     ├── run-checklist.md
@@ -92,10 +93,18 @@ This project is intended for authorized security testing, such as assets explici
 
 This skill is a workflow-engineering aid, not a guarantee of vulnerability discovery, complete coverage, or accurate severity. Tool availability, model behavior, and results vary. Human validation remains necessary.
 
+## Credits and inspiration
+
+Hackbot Engineering was inspired by **[“Hackbots | DEF CON 34 | BBV Masterclass with Jason Haddix”](https://www.youtube.com/watch?v=cRKToFkZMvk&t=466s)**.
+
+I took ideas and lessons from the talk about engineering AI-assisted security agents and translated them into a reusable Claude Code skill with practical checklists, task contracts, output verification, review procedures, and safety boundaries for authorized web security testing.
+
+This repository is my own implementation of those concepts. It is an independent project and is not affiliated with or endorsed by Jason Haddix or DEF CON.
+
 ## Contributing
 
 Issues and pull requests are welcome for improvements to task contracts, checklist design, evidence requirements, and reproducibility. Please do not submit secrets, private target details, or sensitive assessment artifacts.
 
 ## License
 
-No license has been selected yet. Until a license is added, standard copyright applies and reuse permissions are not automatically granted. Choose and add a license before inviting reuse.
+This project is released under the [MIT License](LICENSE).
