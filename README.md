@@ -97,7 +97,7 @@ This skill is a workflow-engineering aid, not a guarantee of vulnerability disco
 
 Hackbot Engineering was inspired by **[“Hackbots | DEF CON 34 | BBV Masterclass with Jason Haddix”](https://www.youtube.com/watch?v=cRKToFkZMvk&t=466s)**.
 
-I took ideas and lessons from the talk about engineering AI-assisted security agents and translated them into a reusable Claude Code skill with practical checklists, task contracts, output verification, review procedures, and safety boundaries for authorized web security testing.
+I took ideas and lessons from the talk about engineering AI-assisted security agents and translated them into a reusable skill with practical checklists, task contracts, output verification, review procedures, and safety boundaries for authorized web security testing.
 
 This repository is my own implementation of those concepts. It is an independent project and is not affiliated with or endorsed by Jason Haddix or DEF CON.
 
